@@ -169,3 +169,29 @@ header{
     gap: 1px;
     font-size: 12px;
 }
+
+@media(max-width: 960px){
+    .celular img{
+        display: none;
+    }
+
+    .login-container, .nao-tenho-conta, header{
+        margin: 0;
+    }
+
+    .login-container{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 520px){
+    .login-container, .nao-tenho-conta{
+        border: none;
+    }
+}
+
+@media(max-width: 360px){
+    .login-container, .nao-tenho-conta, header{
+        width: 100%;
+    }
+}
